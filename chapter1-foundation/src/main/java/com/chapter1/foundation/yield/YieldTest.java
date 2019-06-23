@@ -9,7 +9,7 @@ public class YieldTest implements Runnable {
     }
     public void run() {
         for (int i=0;i<5;i++){
-            //i=5时当前线程让出CPU执行权
+            //i=0时当前线程让出CPU执行权
             if (i%5==0){
                 System.out.println(Thread.currentThread()+"开始让出CPU...");
                 //线程让出CPU执行权
@@ -23,5 +23,8 @@ public class YieldTest implements Runnable {
         new YieldTest();
         new YieldTest();
         new YieldTest();
+        Integer i = new Integer(1000);
+        Integer j = new Integer(1000);
+        System.out.println(i.hashCode()==j.hashCode()&&i.equals(j));
     }
 }

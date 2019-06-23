@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>chapter1-foundation</module>
+        <module>chapter2-other</module>
+        <module>chapter3-random</module>
     </modules>
 
 

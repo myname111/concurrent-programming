@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter1-foundation/chapter1-foundation.iml" filepath="$PROJECT_DIR$/chapter1-foundation/chapter1-foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2-other/chapter2-other.iml" filepath="$PROJECT_DIR$/chapter2-other/chapter2-other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3-random/chapter3-random.iml" filepath="$PROJECT_DIR$/chapter3-random/chapter3-random.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-programming.iml" filepath="$PROJECT_DIR$/concurrent-programming.iml" />
     </modules>
   </component>
